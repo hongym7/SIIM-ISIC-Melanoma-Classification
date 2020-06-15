@@ -4,7 +4,7 @@ Identify melanoma in lesion images
 Very HIGH class imbalance.  
 
 
-## *ase architecture
+## *Base architecture
 1. efficient net b0  
 2. adam optimizer  
 
