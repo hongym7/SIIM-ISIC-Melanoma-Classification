@@ -4,12 +4,12 @@ Identify melanoma in lesion images
 Very HIGH class imbalance.  
 
 
-#### base  
+### base architecture
 1. efficient net b0  
 2. adam optimizer  
 
 
-#### solutions  
+### solutions  
 1. focal loss  
 2. over and under sampling - undersampling  
 3. augmentation
