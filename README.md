@@ -5,7 +5,7 @@ Very HIGH class imbalance.
 
 
 ## Base architecture
-1. efficient net b0  
+1. efficientnet b0  
 2. adam optimizer  
 
 
