@@ -6,7 +6,7 @@ Very HIGH class imbalance.
 
 ## Base architecture
 1. efficientnet b0   
-  or efficientnet b2 is best in my source  
+  or **efficientnet b2** is best in my source  
 2. adam optimizer  
 
 
@@ -14,7 +14,7 @@ Very HIGH class imbalance.
 1. focal loss  
 2. over and under sampling - (undersampling)  
 3. augmentation  
-  - rotation_range=20
+  - rotation_range=20 (90 is not working)
   - width_shift_range=0.2
   - height_shift_range=0.2
   - vertical_flip=True
