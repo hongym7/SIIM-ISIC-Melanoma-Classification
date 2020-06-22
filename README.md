@@ -1,8 +1,8 @@
 # SIIM-ISIC-Melanoma-Classification
-Identify melanoma in lesion images
-  
-Very HIGH class imbalance.  
+Identify melanoma in lesion images  
 Framework : Tensorflow / Keras  
+### Point
+- Very HIGH class imbalance  
  
 
 
