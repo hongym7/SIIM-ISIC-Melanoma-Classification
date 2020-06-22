@@ -22,6 +22,7 @@ Framework : Tensorflow / Keras
   - vertical_flip=True
   - horizontal_flip=True
 4. ensemble (to do)
+  - variety input size
 5. class weight (to do)      
    maybe not use with focal loss and class weight 
 6. noisy-student 
