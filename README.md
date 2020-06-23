@@ -13,16 +13,16 @@ Framework : Tensorflow / Keras
 
 
 ## Solutions  
-1. focal loss  
-2. over and under sampling - (undersampling)  
-3. augmentation  
-  - rotation_range=20 (90 is not working)
-  - width_shift_range=0.2
-  - height_shift_range=0.2
-  - vertical_flip=True
-  - horizontal_flip=True
-4. ensemble (to do)
-  - variety input size
-5. class weight (to do)      
-   maybe not use with focal loss and class weight 
-6. noisy-student 
+- focal loss  
+- over and under sampling - (undersampling)  
+- augmentation  
+  * rotation_range=20 (90 is not working)
+  * width_shift_range=0.2
+  * height_shift_range=0.2
+  * vertical_flip=True
+  * horizontal_flip=True
+- ensemble (to do)
+  * variety input size
+- class weight (to do)      
+  * maybe not use with focal loss and class weight 
+- noisy-student 
