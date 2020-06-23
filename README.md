@@ -21,6 +21,8 @@ Framework : Tensorflow / Keras
   * height_shift_range=0.2
   * vertical_flip=True
   * horizontal_flip=True
+  * zoom_range=
+  * random_erase=
 - ensemble (to do)
   * variety input size
 - class weight (to do)      
