@@ -16,15 +16,20 @@ Framework : Tensorflow / Keras
 - focal loss  
 - over and under sampling - (undersampling)  
 - augmentation  
-  * rotation_range=20 (90 is not working)
+  * ~~rotation_range~~
   * width_shift_range=0.2
   * height_shift_range=0.2
   * vertical_flip=True
   * horizontal_flip=True
-  * zoom_range=
+  * zoom_range=[1.0, 1.3]
   * random_erase=
+  * rotate 90 = True
 - ensemble (to do)
   * variety input size
 - class weight (to do)      
-  * maybe not use with focal loss and class weight 
-- noisy-student 
+  * Must not use focal loss and class weight 
+- noisy-student
+  * stochastic depth
+  * dropout
+  * randaugment
+- 
