@@ -22,10 +22,11 @@ Framework : Tensorflow / Keras
   * vertical_flip=True
   * horizontal_flip=True
   * zoom_range=[1.0, 1.3]
-  * random_erase=
+  * ~~random_erase~~
   * rotate 90 = True
 - ensemble (to do)
   * variety input size (256, 512, 1024 ...)
+  * with rank data (?)
 - weight balancing (to do)      
   * Must not use 'focal loss' and 'weight balancing' together
 - noisy-student
