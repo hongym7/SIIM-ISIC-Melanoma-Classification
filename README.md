@@ -25,11 +25,11 @@ Framework : Tensorflow / Keras
   * random_erase=
   * rotate 90 = True
 - ensemble (to do)
-  * variety input size
-- class weight (to do)      
-  * Must not use focal loss and class weight 
+  * variety input size (256, 512, 1024 ...)
+- weight balancing (to do)      
+  * Must not use 'focal loss' and 'weight balancing' together
 - noisy-student
   * stochastic depth
   * dropout
-  * randaugment
+  * rand augment
 - 
