@@ -23,7 +23,7 @@ Framework : Tensorflow / Keras
   * horizontal_flip=True
   * zoom_range=[1.0, 1.3]
   * ~~random_erase~~
-  * rotate 90 = True
+  * ~~rotate 90 = True~~
 - ensemble (to do)
   * variety input size (256, 512, 1024 ...)
   * with rank data (?)
@@ -33,4 +33,19 @@ Framework : Tensorflow / Keras
   * stochastic depth
   * dropout
   * rand augment
-- 
+
+
+## Result
+- train_ext_data_06_5_9
+    - _ : [0.921] b2 zoom_range=[1.0, 1.3]    
+    - 1 : [0.000] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0]   
+- train_ext_data_06_5_12  
+    - _ : [0.914] b2 25000(more than 06_5_9)
+- train_ext_data_06_5_13  
+    - _ : [0.922] b3 zoom_range=[1.0, 1.3]  
+    - 1 : [0.906] b3 zoom_range=[1.0, 1.3] rot90
+    - 2 : [0.914] b4 zoom_range=[1.0, 1.3]
+    - 3 : [0.912] b3 zoom_range=[1.0, 1.4]  
+    - 4 : [0.924] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]   
+    - 5 : [0.915] b3 zoom_range=[1.1, 1.4]  
+    - 6 : [0.000] b3 zoom_range=[1.1, 1.5] brightness_range=[0.7, 1.0] rotation_range=0.2
