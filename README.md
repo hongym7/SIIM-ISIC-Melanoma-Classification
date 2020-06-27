@@ -51,6 +51,37 @@ Framework : Tensorflow / Keras
     - 5 : [0.915] b3 zoom_range=[1.1, 1.4]  
     - 6 : [0.920] b3 zoom_range=[1.1, 1.5] brightness_range=[0.7, 1.0] rotation_range=0.2  
     - 7 : [0.921] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0] rotation_range=0.2   
-    - 8 : [0.000] b4 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0]   
+    - 8 : [0.912] b4 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0]   
 - train_ext_data_06_5_14
-    - _ : [0.000] b1 
+    - _ : [0.919] b1 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1]
+    - 1 : [0.896] b1 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1] channel_shift_range=150.0
+- train_ext_data_06_5_15
+    - _ : [0.920] b5 zoom_range=[1.1, 1.4] brightness_range=[0.7, 1.0]
+- train_ext_data_06_5_16
+    - _ : [0.885] b0 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1] batch8
+    - 1 : [0.890] b0 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1] batch16
+    - 2 : [0.891] b0 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1] batch16
+    
+    
+    
+    
+    
+## Ensemble Result  
+- [0.942] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0.csv
+    - submission_ensemble_ext_data_06_5_9_1
+    - submission_ensemble_ext_data_06_5_13_2
+    - submission_ensemble_ext_data_06_5_13_4
+    - submission_ensemble_ext_data_06_5_13_7
+    - submission_ensemble_ext_data_06_5_14
+    - submission_ensemble_ext_data_06_5_15
+
+- [0.939] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0__06_5_16_2.csv
+    - submission_ensemble_ext_data_06_5_9_1
+    - submission_ensemble_ext_data_06_5_13_2
+    - submission_ensemble_ext_data_06_5_13_4
+    - submission_ensemble_ext_data_06_5_13_7
+    - submission_ensemble_ext_data_06_5_14
+    - submission_ensemble_ext_data_06_5_15
+    - submission_ensemble_ext_data_06_5_16_2
+
+- 
