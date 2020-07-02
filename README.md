@@ -45,9 +45,9 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
 ## Result
 - train_ext_data_06_5_9
     - _ : [0.921] b2 zoom_range=[1.0, 1.3]    
-    - 1 : [0.922] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch15  
-    ~~- 2 : [0.907] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch10~~  
-    ~~- 3 : [0.890] b2 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0] epoch13~~
+    - 1 : [0.922] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch15
+    - ~~2 : [0.907] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch10~~  
+    - ~~3 : [0.890] b2 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0] epoch13~~
     - 4 : [0.908] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch11
 - train_ext_data_06_5_12  
     - _ : [0.914] b2 25000(more than 06_5_9_)
@@ -121,13 +121,13 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
   
 ## Ensemble Result  
 - [0.942] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0.csv
-    - Number of Result : 6
+    - Number of ensembled results : 6
 
 - [0.939] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0__06_5_16_2.csv
-    - Number of Result : 7
+    - Number of ensembled results : 7
 
 - [0.939] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0__06_5_16_4.csv
-    - Number of Result : 7
+    - Number of ensembled results : 7
 
 - [0.943] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_0__06_5_18_0.csv
     - submission_ext_data_06_5_9_1
@@ -139,13 +139,13 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
     - submission_ext_data_06_5_18
 
 - [0.942] submission_ensemble_ext_data_06_5_9_1__06_5_13_0__2__4__06_5_14_0__06_5_15_1__06_5_18_0.csv
-    - Number of Result : 7
+    - Number of ensembled results : 7
     
 - [0.942] submission_ensemble_ext_data_06_5_9_1__06_5_13_0__2__4__06_5_14_0__06_5_15_1__06_5_18_0.csv
-    - Number of Result : 7
+    - Number of ensembled results : 7
     
 - [0.942] submission_ensemble_ext_data_06_5_9_0__1__06_5_13_0__2__4__7__06_5_14_0__06_5_15_1__06_5_18_0.csv
-    - Number of Result : 9
+    - Number of ensembled results : 9
     
 - [0.944] submission_ensemble_ext_data_06_5_9_1__06_5_13_2__4__7__06_5_14_0__06_5_15_1__06_5_20_0.csv
     - submission_ext_data_06_5_9_1
