@@ -45,8 +45,8 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
 ## Result
 - train_ext_data_06_5_9
     - _ : [0.921] b2 zoom_range=[1.0, 1.3]    
-    - 1 : [0.922] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch15
-    ~~- 2 : [0.907] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch10~~
+    - 1 : [0.922] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch15  
+    ~~- 2 : [0.907] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch10~~  
     ~~- 3 : [0.890] b2 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0] epoch13~~
     - 4 : [0.908] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch11
 - train_ext_data_06_5_12  
