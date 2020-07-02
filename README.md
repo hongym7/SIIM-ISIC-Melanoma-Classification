@@ -1,15 +1,15 @@
 # SIIM-ISIC-Melanoma-Classification
 Identify melanoma in lesion images  
-Framework : Tensorflow / Keras  
-Evaluate Metric : AUC
+https://www.kaggle.com/c/siim-isic-melanoma-classification/overview  
+
 ### Point
 - Very HIGH class imbalance
- 
 
-## Base architecture
-- Keras
+## Base
+- Framework : Tensorflow / Keras  
 - efficientnet ensemble by input size and network
 - adam optimizer  
+- Evaluate Metric : AUC
 
 
 ## Solutions  
