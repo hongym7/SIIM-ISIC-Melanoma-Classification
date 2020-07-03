@@ -42,7 +42,7 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
   * horizontal_flip
 
 
-## Result
+## Result  
 - train_ext_data_06_5_9
     - _ : [0.921] b2 zoom_range=[1.0, 1.3]    
     - 1 : [0.922] b2 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.0] epoch15
@@ -56,9 +56,9 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
     - 512 * 512
     - _ : [0.922] b3 zoom_range=[1.0, 1.3]  
     - ~~1 : [0.906] b3 zoom_range=[1.0, 1.3] rot90~~
-    - 3 : [0.912] b3 zoom_range=[1.0, 1.4]  
+    - ~~3 : [0.912] b3 zoom_range=[1.0, 1.4]~~
     - 4 : [0.924] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]   
-    - 5 : [0.915] b3 zoom_range=[1.1, 1.4]  
+    - ~~5 : [0.915] b3 zoom_range=[1.1, 1.4]~~
     - 6 : [0.920] b3 zoom_range=[1.1, 1.5] brightness_range=[0.7, 1.0] rotation_range=0.2  
     - 7 : [0.921] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0] rotation_range=0.2   
 - train_ext_data_06_5_21
@@ -66,7 +66,9 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
     - 1 : [0.000] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]   
 - train_ext_data_06_5_22
     - 224 * 224
-    - 1 : [0.000] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]  
+    - 1 : [0.902] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]  
+    - 2 : [0.912] b3 zoom_range=[1.0, 1.4] brightness_range=[0.7, 1.0]  
+    - 3 : [0.906] b3 zoom_range=[1.1, 1.5] brightness_range=[0.7, 1.0]  0.881>(step)>0.906
     
 - train_ext_data_06_5_13      
     - 512 * 512
@@ -84,7 +86,9 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
     - 224 * 224
     - 2 : [0.896] b1 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1]
     - 3 : [0.918] b1 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1] 0.905>(up-samling)>0.918
-
+    - 768 * 768
+    - 4 : [0.000] b1 zoom_range=[1.0, 1.3] brightness_range=[0.7, 1.1]
+    
 - train_ext_data_06_5_15
     - 512 * 512
     - _ : [0.920] b5 zoom_range=[1.1, 1.4] brightness_range=[0.7, 1.0]
