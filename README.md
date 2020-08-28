@@ -28,8 +28,8 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
 - ensemble
   * k fold (k=5)
   * variety input size (224, 256, 512, 768)
-  * variety network (~~b0,~~ ~~b1~~, b2, b3, b4, b5, b6)
-  * rank ensemble (min, max, avg)
+  * variety network (~~b0,~~ ~~b1~~, b2, b3, b4, b5, ~~b6~~)
+  * rank ensemble (min, max, **avg**)
 - ~~weight balancing~~
   * Must not use 'focal loss' and 'weight balancing' together
 - noisy-student (from check point)
