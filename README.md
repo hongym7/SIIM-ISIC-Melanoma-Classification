@@ -18,13 +18,13 @@ https://www.kaggle.com/c/siim-isic-melanoma-classification/overview
 - augmentation  
   * ~~rotation_range~~
   * ~~rotate 90 = True~~
-  * width_shift_range=0.2
-  * height_shift_range=0.2
+  * width_shift_range=0.1
+  * height_shift_range=0.1
   * vertical_flip=True
   * horizontal_flip=True
   * zoom_range=[1.0, 1.3]
   * brightness_range=[0.7, 1.0]
-  * ~~random_erase~~
+  * random_erase(cutout)
 - ensemble
   * k fold (k=5)
   * variety input size (224, 256, 512, 768)
